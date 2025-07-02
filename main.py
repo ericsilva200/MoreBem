@@ -237,7 +237,7 @@ def main():
     try:
         # 1. Carregar dados
         print("🚀 Iniciando processo de recomendação de imóveis...")
-        df = pd.read_csv('/content/sample_data/final_dataframe.csv')
+        df = pd.read_csv('caminho para o dataframe')
         
         # 2. Limpeza dos dados
         print("🧹 Limpando dados...")
